@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+    background-color: #7d964d;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    transition: 3s;
+}
+
+.spin-wrapper{
+    position: relative;
+}
+
+.spin-triangle{
+    position: absolute;
+    top: -20px;
+    left: 220px;
+    z-index: 10;
+    width: 50px;
+}
+
+.spin-center{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 10;
+    max-width: 200px;
+    width: 100%;
+}
+
+.spin-button{
+    max-width: 300px;
+    width: 100%;
+    padding-block: 20px;
+    border-radius: 30px;
+    background-color: #EC8C17;
+    color: #22A699;
+    border: 5px solid #22A699;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
